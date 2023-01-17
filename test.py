@@ -9,7 +9,7 @@ import sys
 
 now = datetime.now()
 num = random.randint(1, 101)
-with open('rand.txt', 'a') as f:
+with open('/tmp/rand.txt', 'a') as f:
     f.write('{} - Your random number is {}\n'.format(now, num)) 
 def emailnew():
     sender_email = "ayanhussain821@gmail.com" 
