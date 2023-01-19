@@ -14,7 +14,7 @@ with open('/tmp/rand.txt', 'a') as f:
 def emailnew():
     sender_email = "ayanhussain821@gmail.com" 
     receiver_email = "ayanhussain746@gmail.com"
-    password = 'kedxqxdodxnckcsl'
+    password = '-----------'
     message = MIMEMultipart("alternative")
     message["Subject"] = "Testting"
     message["From"] = sender_email
