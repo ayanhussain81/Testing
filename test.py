@@ -6,7 +6,7 @@ from datetime import datetime
 import smtplib, ssl
 import sys
 
-
+ 
 now = datetime.now()
 num = random.randint(1, 101)
 with open('/tmp/rand.txt', 'a') as f:
