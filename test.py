@@ -12,8 +12,8 @@ num = random.randint(1, 101)
 with open('/tmp/rand.txt', 'a') as f:
     f.write('{} - Your random number is {}\n'.format(now, num)) 
 def emailnew():
-    sender_email = "ayanhussain821@gmail.com" 
-    receiver_email = "ayanhussain746@gmail.com"
+    sender_email = "----------@gmail.com" 
+    receiver_email = "---------@gmail.com"
     password = '-----------'
     message = MIMEMultipart("alternative")
     message["Subject"] = "Testting"
